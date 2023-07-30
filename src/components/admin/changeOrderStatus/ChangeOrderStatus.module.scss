@@ -1,0 +1,18 @@
+.card {
+  padding: 1rem;
+  max-width: 40rem;
+  border: 1px solid var(--color-primary);
+  margin-top: 10px;
+
+  select {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    outline: none;
+  }
+}
