@@ -9,6 +9,8 @@ const OrderDetails = () => {
   const { id } = useParams();
   const order = useFetchDocument("orders", id);
 
+  console.log(order.isLoading);
+
   return (
     <div className={`container ${styles.table}`}>
       <h2>Order Details</h2>

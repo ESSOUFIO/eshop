@@ -9,8 +9,8 @@ const useFetchDocument = (collectionName, docId) => {
   useEffect(() => {
     const getDocument = async () => {
       const docRef = doc(db, collectionName, docId);
-      const docSnap = await getDoc(docRef);
 
+      const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
         const obj = {
           id: docId,
